@@ -1,5 +1,9 @@
-#use "chapter9/9-9.ml" ;; (* ekimei_t, global_ekimai_list *)
-#use "chapter18/18-6.ml" ;; (* No_such_station *)
+(* ekimei_t, global_ekimai_list *)
+(* #use "chapter9/9-9.ml" ;; *)
+#use "../chapter9/9-9.ml" ;;
+(* No_such_station *)
+(* #use "chapter18/18-6.ml" ;; *)
+#use "../chapter18/18-6.ml" ;;
 
 (* 目的：ローマ字の駅名と駅名リストを受け取ったら、その駅の漢字表記を文字列で返す *)
 (* 見つからなかったら例外 No_such_station を起こす *)
